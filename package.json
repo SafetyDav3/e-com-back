@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "watch": "nodemon server.js",
-    "seed": "node seeds/index.js"
+    "seed": "node seeds/index.js",
+    "bop": "npm install && node seeds/index.js && node server.js"
   },
   "repository": {
     "type": "git",
